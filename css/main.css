@@ -62,7 +62,7 @@ html {
   display: none;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .header__menu-container {
     padding-inline: 10rem;
   }
@@ -86,4 +86,32 @@ html {
 }
 .footer__img {
   width: 1rem;
+}
+
+.image-gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin-block: 1rem;
+  gap: 1rem;
+}
+.image-gallery__img-container {
+  width: 100%;
+}
+.image-gallery__img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .image-gallery {
+    display: block;
+    -moz-columns: 5;
+         columns: 5;
+    padding: 1rem;
+    margin-block: 1rem;
+  }
+  .image-gallery__img-container {
+    margin-bottom: 1rem;
+  }
 }/*# sourceMappingURL=main.css.map */
