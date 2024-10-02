@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sass billede galleri</title>
+    <script src="js/menu.js" defer></script>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <header>
+    <header class="header">
         <input type="search" name="search" id="search-input" class="header__search-input" placeholder="search">
 
         <div class="header__menu-container">
             <h1 class="header__menu-container__heading">explore</h1>
-            <img src="icon/menu-svgrepo-com.svg" alt="menu-icon" class="header__menu-container__menu-button" id="header__menu-container__menu-button">
+            <img src="icon/menu-icon.svg" alt="menu-icon" class="header__menu-container__menu-button" id="header__menu-container__menu-button">
             <nav>
-                <ul class="header__menu-container__menu" id="header__menu-container__menu">
+                <ul class="header__menu-container__menu is-active animate__animated" id="header__menu-container__menu">
                     <li>lifestyle</li>
                     <li>food</li>
                     <li>home</li>
@@ -27,5 +29,14 @@
             </nav>
         </div>
     </header>
+
+    <footer class="footer">
+        <img src="icon/faceboo-icon.svg" alt="facebook" class="footer__img">
+        <img src="icon/twitter-icon.svg" alt="twitter" class="footer__img">
+        <img src="icon/insta-icon.svg" alt="instagram" class="footer__img">
+        <img src="icon/google-plus-icon.svg" alt="google-plus" class="footer__img">
+        <img src="icon/behance-icon.svg" alt="behance" class="footer__img">
+        <img src="icon/basketball-icon.svg" alt="basketball" class="footer__img">
+    </footer>
 </body>
 </html>
