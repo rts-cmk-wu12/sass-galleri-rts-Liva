@@ -52,10 +52,12 @@ html {
 .header__menu-container__menu {
   list-style: none;
   display: flex;
-  align-items: center;
   gap: 0.8rem;
   text-transform: capitalize;
   color: #c4c4c4;
+}
+.header__menu-container__menu__li {
+  cursor: pointer;
 }
 
 .is-active {
@@ -71,7 +73,6 @@ html {
   }
   .is-active {
     display: flex;
-    align-items: center;
   }
 }
 /* ---------------------------- footer ---------------------------- */
@@ -90,7 +91,6 @@ html {
 
 .image-gallery {
   display: flex;
-  align-items: center;
   flex-direction: column;
   padding: 1rem;
   margin-block: 1rem;
