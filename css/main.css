@@ -108,8 +108,6 @@ html {
     display: block;
     -moz-columns: 5;
          columns: 5;
-    padding: 1rem;
-    margin-block: 1rem;
   }
   .image-gallery__img-container {
     margin-bottom: 1rem;
