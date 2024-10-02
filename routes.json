@@ -1,0 +1,4 @@
+{
+    "/images/category/:category": "/images?category=:category",
+    "/images/category/all": "/images"
+}
